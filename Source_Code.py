@@ -1,3 +1,8 @@
+import math
+import numpy as np
+import pandas as pd
+from scipy import stats
+
 # Load the data from the test using pd.read_csv
 data = pd.read_csv("background_color_experiment.csv")
 
